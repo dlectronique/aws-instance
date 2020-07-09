@@ -1,6 +1,6 @@
 resource "aws_security_group" "demo" {
-  name        = "demo-willfarley-sg"
-  description = "Security Group for the demo willfarley EC2 Instance"
+  name        = "demo-dlectronique-sg"
+  description = "Security Group for the demo dlectronique EC2 Instance"
   vpc_id      = "${var.vpc_id}"
 
   ingress {
